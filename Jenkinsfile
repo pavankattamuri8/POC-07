@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',url: 'https://github.com/tejaravutla287/POC7.git'
+                git branch: 'main',url: 'https://github.com/pavankattamuri8/POC-07.git'
             }
         }
         stage('Build Docker Image') {
